@@ -24,7 +24,6 @@ class Bowling
   end
 
   private
-
     def count_hits(moves)
       moves.chars.collect(&:to_i).inject(&:+)
     end
